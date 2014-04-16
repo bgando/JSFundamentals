@@ -1,3 +1,53 @@
+1. "Loop through the array FAMOUS and console.log ONLY when it gets
+to ashton kutcher, and mila kunis";
+
+var famous = ['alex smith', 'amy whinehouse', 
+'cameron diaz', 'brad pitt', 'ashton kutcher', 'mark whalberg',
+'morgan freeman', 'mila kunis'];
+
+2. "Loop through the object POLITICAL and console.log first the
+VALUE then the KEY";
+
+var political = {secretary of state: 'hillary clinton',
+ potus: 'barack obama', flotus: 'michelle obama', vice prez: 'joe biden'
+ governerOfCalifornia: 'jerry brown'};
+
+3. "Loop through the political object and add the values to the famous array"
+
+
+4. "Take the array digits and place each value into an empty object where
+The object keys will be the index numbers of DIGITS and the values 
+of the object are the digit values * 2"
+
+example: 
+
+var digits = [0, 1, 2, 3, 4, 5]
+var newDigits = {} ======> {0: 0, 1: 2, 2: 4, 3: 6, 4: 8, 5: 10};
+
+5. "Without using a loop, take the 2nd and 3rd array values out of 
+FRIENDS and push it to the array ENEMIES"
+
+var friends = ['albrey', 'will', 'bianca', 'abe'];
+var enemies = [];
+
+6. "Join the array friends AND the array enemies into an string with 
+the variable name 'frenemies'" 
+
+7. 'Loop through the array scramble and through each iteration take out 
+the FIRST and LAST value, and store it into the lovepoem array. then
+turn the values in the lovepoem array into a string.'
+
+var scramble: ['roses', 'red', 'are', 'bacon', 'crispy', 'i', 'you'
+,'love', 'and', 'is', 'blue', 'violets', 'are']
+var lovepoem = [];
+
+
+
+
+
+
+
+
 Assume you receive this nested data structure from a database for 
 your new dating site:
 
