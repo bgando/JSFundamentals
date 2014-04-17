@@ -2,6 +2,8 @@
 ===============================================================
 false && true || true
 false && (true || true)
+true ? console.log(3) : console.log(2);
+false ? console.log(3) : console.log(2);
 
 //Some examples of logical operators in action
 ===============================================================
@@ -28,17 +30,30 @@ function isAdult(age) {
 //Write a function that adds up all the numbers from 1 up to,
 // but not including num
 ===============================================================
-
+//This function will return a number
+//[input: 5]
+//[output: 10]
 
 //Write a range function that takes a start and an end value
 //and returns an array containing all number from start up to
 //and including end
 ==============================================================
-
+//This function will return a number
+//[input: 3, 8]
+//[output: [3,4,5,6,7,8]]
 
 //Easy stuff right? How about making a function that takes
 //two numbers, a base and exponent and returns the result
 =============================================================
+//This function will return a number
+//[input: 2, 5]
+//[output: 32]
+
+//create a function named 'arrayCounter' that takes in a parameter which
+// is an array. The function must return the length of an array passed in
+// or 0 if a 'string', 'number' or 'undefined' value is passed in.
+==============================================================
+//[hint: try using logical operators in your function]
 
 
 //Type conversions
@@ -62,6 +77,7 @@ var obj = {};
 for(var i = 0; i < func.length; i++){
   console.log(obj[i]);
 }
+
 
 //write a function that changes an object into an array of it's values
 //input => {one: 1, two: 2, three: 3, four: 4} 
