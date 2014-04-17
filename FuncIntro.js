@@ -13,6 +13,11 @@ test ? console.log(true) : console.log(false);
 
 !
 
+
+cond1 || cond2 === !(!cond1 && !cond2)
+cond1 && cond2 === !(!cond1 || !cond2)
+
+
 //truthy + falsy
 =================================================
 JavaScript Falsy Values: 
