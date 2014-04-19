@@ -91,4 +91,3 @@ for(var i = 0; i < func.length; i++){
 //what is the difference between a side effect of a function and
 //what a function returns?
 
-//use a ternary operator
