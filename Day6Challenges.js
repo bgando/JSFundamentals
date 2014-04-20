@@ -18,7 +18,15 @@ rewrite the previous function using _.each
 write a function that takes a nested array and returns
 a one dimentional array.
 
-rewrite the previous function using _.map
+use _.map to change the 'name' property to your name and the 
+'isAwesome' property to true of these objects in this array of 
+objects - 
+[
+{loves: 'iceCream' name: 'Billy', isAwesome: false;}
+{loves: 'sandwiches' name: 'Albrey', isAwesome: false;}
+{loves: 'pizza' name: 'Spencer', isAwesome: false;}
+{loves: 'strawberries' name: 'Fred', isAwesome: false;}
+]
 
 write a function that takes a random number(1-10) of randomly
 generated num inputs (1-10). With those inputs, you add 
