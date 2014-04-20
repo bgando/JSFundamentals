@@ -1,12 +1,16 @@
-write a function that returns the first element of
-an array
+write a function that takes two parameters, one, 'arr', is an array
+and the second, 'x',  is the number. The function returns
+the first 'x' indices of the array
+firstIndex([1,2,3,4], 3) => [1,2,3]
 
-write a function that returns the last element of an 
+write a function that returns the last elements of an 
 array using the previous function (note: you cannot 
   use slice here!)
 
+lastIndex([1,2,3,4], 3) => [4,3,2]
+
 write a function that will merge the first object into
-the second object. If the property already exists, on the first
+the second object. If the property already exists, on the second
 object, do not overwrite it. 
 
 rewrite the previous function using _.each
