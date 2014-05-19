@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 1. "Loop through the array FAMOUS and console.log ONLY when it gets
 to ashton kutcher, and mila kunis";
 
@@ -179,10 +178,6 @@ var p = null;
 Array.isArray(colors) && undefined ==> ???
 Array.isArray(colors) && "undefined" ==> ???
 Array.isArray(colors) && colors.pop(); => ??
-
->>>>>>> 4718e86d5a79935a0c302ed3d2d4be3dd3f3224a
-
-
 
 Assume you receive this nested data structure from a database for 
 your new dating site:
