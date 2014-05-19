@@ -97,7 +97,7 @@ var singers = {
 
 
 //So that's fine but is far from ideal since we'll have to update
-//singers['length'] manually, let's use a for in loop instead
+// singers['length'] manually, let's use a for in loop instead
 =================================================
 
 
@@ -126,15 +126,43 @@ var dogs = [
 ];
 
 
-
-//Log all of the values for Henry
+//Now let's say we want to create a function that 
+//logs all of the values for Henry
 ====================================================
 
 
 //That's cool and all but what good are the Values without
-//their keys? Log each key/value pair
+// their keys? Write a function that will log the key/value pairs
 =================================================
 
+
+//logical operators
+=================================================
+0. They perform boolean algebra, always evaluating to true or false
+1. They always evaluate left to right
+2. && most simply means 'and'
+3. || is either/or
+4. !() is negation
+
+//some examples
+=================================================
+var o = {x: 1};
+var p = null;
+
+//How do the following evaluate
+=================================================
+ o && o.x => ???
+ p && p.x => ???
+ o && p => ???
+ o || p => ???
+ !(o) => ???
+ !(p) => ???
+
+ //Cool, so now that we've got an idea of how they work, lets
+ //use em!
+ //write a function named guessingGame that takes a number
+ //as an argument and logs some encouraging works if they're close
+ ================================================
 
 //Create an array and populate it with four colors
 =================================================
@@ -150,8 +178,6 @@ var dogs = [
 Array.isArray(colors) && undefined ==> ???
 Array.isArray(colors) && "undefined" ==> ???
 Array.isArray(colors) && colors.pop(); => ??
-
-
 
 Assume you receive this nested data structure from a database for 
 your new dating site:

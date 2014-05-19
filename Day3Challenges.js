@@ -28,7 +28,7 @@ function isAdult(age) {
 
 
 //Write a function that adds up all the numbers from 1 up to,
-// but not including num
+//but not including num
 ===============================================================
 //This function will return a number
 //[input: 5]
@@ -90,4 +90,3 @@ for(var i = 0; i < func.length; i++){
 
 //what is the difference between a side effect of a function and
 //what a function returns?
-
