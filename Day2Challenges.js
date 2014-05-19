@@ -98,7 +98,7 @@ var singers = {
 
 
 //So that's fine but is far from ideal since we'll have to update
-// singers['length'] manually, let's use a for in loop instead
+//singers['length'] manually, let's use a for in loop instead
 =================================================
 
 
@@ -133,7 +133,7 @@ var dogs = [
 
 
 //That's cool and all but what good are the Values without
-// their keys? Write a function that will log the key/value pairs
+//their keys? Log each key/value pair
 =================================================
 
 
