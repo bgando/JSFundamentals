@@ -8,11 +8,11 @@ The course is taught over four days with one three-hour workshop held each day. 
 
 # Syllabus
 
-Monday, May 26th (6pm-9pm) Lecture + Exercise Day 
+### DAY 1
+
+Monday (6pm-9pm) Lecture + Exercise Day 
 Topic: Everything you need to know about Objects + Arrays
 Source: https://github.com/bgando/JSFundamentals/blob/master/objectsAndArrays.js
-
-Today we will learn everything you need to know about Objects + Arrays with exercises in this interactive lecture.
 
 - basic definitions of objects and arrays
 - similarities between objects and arrays
@@ -31,18 +31,35 @@ Today we will learn everything you need to know about Objects + Arrays with exer
 - definition of method
 - native methods and constructors of objects and arrays
 
-Tuesday, May 27th (6pm-9pm) Project Day
+### DAY 2
 
-Today you will work with your pair on a project that utilizes Objects + Arrays.
+Tuesday (6pm-9pm) Project Day
+Topic: Today you will work with your pair on a project that utilizes Objects + Arrays
+Source: https://github.com/bgando/JSFundamentals/blob/master/Day2Challenges.js
 
-Wednesday, May 28th (6pm-9pm) Lecture + Exercise Day 
-Topic: Everything you thought you knew about Functions.
+- console.log
+- loop
+- push
+- join
+- pop
+- Array.isArray
+- control flow
+- length
 
-Today we will straighten out common confusions related to functions with exercises intertwined.
+### DAY 3
 
-Thursday, May 29th (6pm-9pm) Project Day
+Wednesday (6pm-9pm) Lecture + Exercise Day 
+Topic: Today we will straighten out common confusions related to functions with exercises intertwined
+Source:
 
-Today you will work with your pair to tie everything together for your final project. 
+
+
+### DAY 4
+
+Thursday (6pm-9pm) Project Day
+Topic: Today you will work with your pair to tie everything together for your final project. 
+Source: 
+
 
 ## Goals of this course
 
@@ -69,10 +86,13 @@ Laptop, Chrome browser and a text editor. We recommend Sublime Text 3 for this c
 ## References
 
 http://www.w3schools.com/jsref/jsref_obj_array.asp
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 http://www.w3schools.com/jsref/jsref_obj_array.asp
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
 ## Acknowledgements
 
-This course was created by Bianca Gondolfo @bgando. Contributors include and Will Johnson @wcjohnson11, Albrey Brown @albreyb and Monthy Python.@monthypython.
+This course was created by Bianca Gondolfo @bgando. Contributors include and Will Johnson @wcjohnson11, Albrey Brown @albreyb and Monthy Python @monthypython.
