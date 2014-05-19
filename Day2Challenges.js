@@ -127,8 +127,8 @@ var dogs = [
 ];
 
 
-//Now let's say we want to create a function that 
-//logs all of the values for Henry
+
+//Log all of the values for Henry
 ====================================================
 
 
