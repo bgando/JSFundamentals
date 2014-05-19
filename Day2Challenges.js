@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 1. "Loop through the array FAMOUS and console.log ONLY when it gets
 to ashton kutcher, and mila kunis";
 
@@ -137,34 +136,6 @@ var dogs = [
 =================================================
 
 
-//logical operators
-=================================================
-0. They perform boolean algebra, always evaluating to true or false
-1. They always evaluate left to right
-2. && most simply means 'and'
-3. || is either/or
-4. !() is negation
-
-//some examples
-=================================================
-var o = {x: 1};
-var p = null;
-
-//How do the following evaluate
-=================================================
- o && o.x => ???
- p && p.x => ???
- o && p => ???
- o || p => ???
- !(o) => ???
- !(p) => ???
-
- //Cool, so now that we've got an idea of how they work, lets
- //use em!
- //write a function named guessingGame that takes a number
- //as an argument and logs some encouraging works if they're close
- ================================================
-
 //Create an array and populate it with four colors
 =================================================
 
@@ -179,8 +150,6 @@ var p = null;
 Array.isArray(colors) && undefined ==> ???
 Array.isArray(colors) && "undefined" ==> ???
 Array.isArray(colors) && colors.pop(); => ??
-
->>>>>>> 4718e86d5a79935a0c302ed3d2d4be3dd3f3224a
 
 
 
