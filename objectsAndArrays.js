@@ -42,10 +42,17 @@ PLEASE EAT THE SNACKS :)
 =================================================
 var simpleDataStructures = ['arrays', 'objects'];
 
+// similarities
+=================================================
+0. Both Arrays and Objects are Objects // interesting
+1. Both are what we call in computer sciences "associative arrays"
+2. Which means they are just *a bucket that hold name-value pairs* // also called key-value
+3. Each name-value pair is a property (property name and property value)
+
+
 //what's the difference??
 =================================================
-0. Arrays are Objects
-1. Arrays have brackets, Objects use curly braces
+0. Arrays are enclosed in brackets, Objects use curly braces
 2. Objects are unordered and have named properties
 3. Arrays are ordered with numbers
 4. Arrays have a length property
