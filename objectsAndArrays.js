@@ -206,7 +206,7 @@ behavior are said to be unenumerable.
 The term "method" just means a function that interacts with an object, 
 and is stored as a property of that object
 
-var arrayMethods = ['push', 'pop', 'shift', 'unshift', 'join', 'slice'];
+var arrayMethods = ['push', 'pop', 'shift', 'unshift', 'join', 'slice', 'splice'];
 var arrayConstructorMethods = ['Array.isArray()'];
 FURTHER READING:
 http://www.w3schools.com/jsref/jsref_obj_array.asp
