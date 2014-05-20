@@ -1,10 +1,3 @@
-
-
-
-//******************************
-// Time and audience permitting
-//******************************
-
 funFunctions.intro = function() {
 	var me = {
 		name: 'Bianca Gondolfo',
@@ -32,7 +25,10 @@ funFunctions.intro = function() {
 // Takeaways
 
 funFunctions['takeaways'] = function(){
-	return ['Scope:', 
+	return [
+			'Quick review',
+			''
+			'Scope:', 
 				'what is function scope',
 					'global', 'local', 'nesting' 
 				'what is closure scope', //TODO: tomorrow
@@ -67,10 +63,58 @@ var add = function(a, b){
 add(3, 4, 5); // 7
 
 
-// Exercise: Take turns explaining to your partner the following:
+//Exercise: Take turns explaining to your partner the following:
 //parameters, 
 //arguments,
 //the difference between being called with x arguments vs doing work on x arguments
+
+//FUNCTIONS AS OBJECTS
+
+//What does it mean a function is an object
+var f = function() {};
+typeof f; 				// "function"
+f instanceof Function; 	// true
+f instanceof Object; 	// true
+
+//How does property access work on function objects?
+//How is it similar to or different from property access on other objects?
+
+var fun = function() {};
+
+fun['x'] = 9;
+fun[0] = 'cat', fun[1] = 'dog';
+
+console.log(fun['x']);
+console.log(fun[0]);
+
+for (var k in fun) {
+	console.log(k); 
+}
+
+// 0 
+// 1
+// x
+
+fun.length; // 0
+
+for (var i = 0; i < fun.length; i++) {
+	i; // doesn't do anything
+};
+
+//Two types of loops on functions objects
+//How would they behave?
+//Which one would you use?
+
+//FUNCTION INVOCATION
+
+
+//NUANCES
+//aka common mistakes
+
+//******************************
+// Time and audience permitting
+//******************************
+
 
 // Function scope - Global
 
