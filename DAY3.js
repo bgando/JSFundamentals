@@ -123,14 +123,45 @@ for (var k in fun) {
 fun.length; // 0
 
 for (var i = 0; i < fun.length; i++) {
-	i; // doesn't do anything
+	console.log(i); // never runs
 };
+
+for (var key in fun) {
+	console.log(i); // logs 'x', '0', '1'
+}
 
 //Two types of loops on functions objects
 //How would they behave?
 //Which one would you use?
 
 //FUNCTION INVOCATION
+
+//How are functions different from objects?
+
+fun();
+
+//The only difference is that they can be invoked aka 'run.'
+//The parenthesis are invoking the function, like a button on a machine or the ignition key in a car.
+
+var fun = function() { console.log('2'); };
+var res = fun(); // what is the value of res?
+
+var fun = function() { return 2; };
+var two = fun();
+
+
+
+function fun() {
+	// this is the body
+	// anything between the {}
+	// also called *side effect*
+	return ; // return statement
+};
+
+//invoking a nameless function
+var two = function() { return 2; }(); //trailing invocation parens
+
+//immediate invocation is unusual because the function itself will be discarded and only the result will remain
 
 
 //NUANCES
