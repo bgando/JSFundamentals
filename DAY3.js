@@ -44,7 +44,7 @@ funFunctions['takeaways'] = function(){
 // Functions quick review
 
 var add = function(a, b){
- 	return a + b
+ 	return a + b;
 };
 add(3, 4, 5); // 7
 
@@ -58,7 +58,7 @@ add(3, 4, 5); // 7
 
 var add = function(a, b){
 	console.log(arguments); //logs [3,4,5]!
- 	return a + b
+ 	return a + b;
 };
 add(3, 4, 5); // 7
 
@@ -67,6 +67,31 @@ add(3, 4, 5); // 7
 //parameters, 
 //arguments,
 //the difference between being called with x arguments vs doing work on x arguments
+
+//Function declaration
+function functionName(arg0, arg1, arg2){
+	// function body
+}
+
+//funciton declarations are ready before code executes
+//this is OK:
+sayHi();
+function sayHi(){
+	console.log("Hi");
+}
+
+//Function expression
+
+var functionName = function(arg0, arg1, arg2){
+	// function body
+}; // needs ";"
+
+//not read until the execution reaches the line
+sayBye(); //error - function doesn't exist yet
+var sayBye = function() {
+	console.log("Bye");
+};
+
 
 //FUNCTIONS AS OBJECTS
 
@@ -98,14 +123,45 @@ for (var k in fun) {
 fun.length; // 0
 
 for (var i = 0; i < fun.length; i++) {
-	i; // doesn't do anything
+	console.log(i); // never runs
 };
+
+for (var key in fun) {
+	console.log(i); // logs 'x', '0', '1'
+}
 
 //Two types of loops on functions objects
 //How would they behave?
 //Which one would you use?
 
 //FUNCTION INVOCATION
+
+//How are functions different from objects?
+
+fun();
+
+//The only difference is that they can be invoked aka 'run.'
+//The parenthesis are invoking the function, like a button on a machine or the ignition key in a car.
+
+var fun = function() { console.log('2'); };
+var res = fun(); // what is the value of res?
+
+var fun = function() { return 2; };
+var two = fun();
+
+
+
+function fun() {
+	// this is the body
+	// anything between the {}
+	// also called *side effect*
+	return ; // return statement
+};
+
+//invoking a nameless function
+var two = function() { return 2; }(); //trailing invocation parens
+
+//immediate invocation is unusual because the function itself will be discarded and only the result will remain
 
 
 //NUANCES
