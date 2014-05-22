@@ -44,7 +44,7 @@ funFunctions['takeaways'] = function(){
 // Functions quick review
 
 var add = function(a, b){
- 	return a + b
+ 	return a + b;
 };
 add(3, 4, 5); // 7
 
@@ -58,7 +58,7 @@ add(3, 4, 5); // 7
 
 var add = function(a, b){
 	console.log(arguments); //logs [3,4,5]!
- 	return a + b
+ 	return a + b;
 };
 add(3, 4, 5); // 7
 
@@ -67,6 +67,31 @@ add(3, 4, 5); // 7
 //parameters, 
 //arguments,
 //the difference between being called with x arguments vs doing work on x arguments
+
+//Function declaration
+function functionName(arg0, arg1, arg2){
+	// function body
+}
+
+//funciton declarations are ready before code executes
+//this is OK:
+sayHi();
+function sayHi(){
+	console.log("Hi");
+}
+
+//Function expression
+
+var functionName = function(arg0, arg1, arg2){
+	// function body
+}; // needs ";"
+
+//not read until the execution reaches the line
+sayBye(); //error - function doesn't exist yet
+var sayBye = function() {
+	console.log("Bye");
+};
+
 
 //FUNCTIONS AS OBJECTS
 
