@@ -1,20 +1,22 @@
-http://goo.gl/NUUFVU
+Welcome to JS Fundamentals: Objects, Array and Functions
 
 wifi: hackreactor
 pw: awesomebullets
 
-PLEASE EAT THE SNACKS :)
+Teachers: Bianca and Monthy
+Lead Mentors: Jeff and Spencer
+TAs: Xian, Aaron, Drew
 
+Bathrooms: past the kitchen on the left
 
+=================================================
 
+Setup 
 
-
-
-
-
-
-
-
+1. Download Github Repo
+2. Download Text Editor (sublime recommended)
+3. Running a js file in your browser
+4. Using the console
 
 
 
